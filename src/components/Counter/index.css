@@ -1,0 +1,13 @@
+.onIncrementbnt {
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+.counterCon {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.quantity {
+  margin: 10px;
+}

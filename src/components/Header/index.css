@@ -1,0 +1,63 @@
+.navCon {
+  width: 100%;
+  height: 60px;
+
+  background-color: #f8fafc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.homeHead {
+  margin: 0px;
+  color: #f7931e;
+  font-size: 18px;
+  font-family: 'DM Sans';
+  font-style: italic;
+}
+.iconCon {
+  display: flex;
+  width: 200px;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.ulCon {
+  list-style-type: none;
+  width: 400px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.liItem {
+  color: #334155;
+  font-size: 18px;
+  font-weight: bold;
+}
+.logoutBtn {
+  background-color: #f7931e;
+  border: 0px;
+  outline: none;
+  width: 110px;
+  height: 30px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: 'Roboto';
+  border-radius: 6px;
+  cursor: pointer;
+}
+.linkEdit {
+  text-decoration: none;
+}
+.unselected {
+  color: #334155;
+  font-size: 18px;
+  font-weight: bold;
+}
+.selected {
+  color: #f7931e;
+  font-size: 18px;
+  font-weight: bold;
+}

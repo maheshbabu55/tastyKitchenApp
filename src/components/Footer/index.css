@@ -1,0 +1,29 @@
+.footerIcon {
+  background-color: #0f172a;
+  color: #ffffff;
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.footerTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.footerSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footerTitleName {
+  color: #ffffff;
+  margin-left: 10px;
+  font-style: italic;
+  font-size: 26px;
+}
+.footerDesc {
+  color: #ffffff;
+}

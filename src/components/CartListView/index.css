@@ -1,0 +1,36 @@
+.ulCartCon {
+  width: 90vw;
+  background-color: #f9fbfe;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 120px;
+  padding-right: 170px;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+.Carttitle {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 600;
+}
+.cartTotal {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+}
+.cartPrice {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+.cartRupee {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,55 @@
+.foodItemLogo {
+  width: 230px;
+  height: 150px;
+  border-radius: 10px;
+}
+.foodItemList {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fooditemTextCon {
+  width: 40%;
+  height: 150px;
+
+  margin-left: 20px;
+}
+.foodItemName {
+  font-size: 20px;
+  color: #334155;
+  margin: 0px;
+}
+.foodItemPrice {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.foodItemCost {
+  margin: 0px;
+  margin-left: 5px;
+}
+.foodItemStar {
+  color: #ffcc00;
+}
+.foodItemRating {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.foodRating {
+  margin: 0px;
+  margin-left: 7px;
+  color: #334155;
+  font-weight: 700;
+}
+.addBtn {
+  color: #ffa412;
+  border: 2px solid #ffa412;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
