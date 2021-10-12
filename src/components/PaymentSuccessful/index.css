@@ -20,3 +20,9 @@
   margin-top: 25px;
   margin-bottom: 23px;
 }
+@media (max-width: 560px) {
+  .paymentSuccessInnerCon {
+    height: 300px;
+    width: 300px;
+  }
+}

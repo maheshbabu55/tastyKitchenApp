@@ -27,3 +27,16 @@
 .footerDesc {
   color: #ffffff;
 }
+@media (max-width: 560px) {
+  .footerIcon {
+    height: 20px;
+    width: 20px;
+  }
+  .footerTitle {
+    font-size: 15px;
+  }
+  .footerDesc {
+    font-size: 11px;
+    text-align: center;
+  }
+}

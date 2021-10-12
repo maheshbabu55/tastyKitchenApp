@@ -19,6 +19,7 @@
   width: 250px;
   height: 230px;
   border-radius: 10px;
+  margin-left: 20px;
 }
 .hotelDetailTextCon {
   width: 700px;
@@ -72,4 +73,39 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 560px) {
+  .hotelImageOnBanner {
+    height: 120px;
+    width: 120px;
+  }
+  .hotelDetailBanner {
+    height: 200px;
+    width: 100vw;
+  }
+  .hotelDetailTitle {
+    font-size: 18px;
+  }
+  .hotelDetailsCuisine {
+    margin-top: 4px;
+    font-size: 10px;
+  }
+  .hotelDetailTextCon {
+    height: 150px;
+    width: 200px;
+
+    margin-left: 10px;
+  }
+  .hotelDetailsBannerRatingCon {
+    margin-right: 10px;
+
+    width: 80px;
+    height: 50px;
+  }
+  .hotelDetailedUlCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

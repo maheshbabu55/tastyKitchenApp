@@ -1,3 +1,4 @@
+import {BiRupee} from 'react-icons/bi'
 import Counter from '../Counter'
 import CartContext from '../../Context/CartContext'
 import './index.css'
@@ -15,31 +16,61 @@ const CartItem = props => (
         cartQuantityDecrement(id)
       }
       return (
-        <li className="cartItemContainer">
-          <div className="cartImageCon">
-            <img src={imageUrl} alt={name} className="cartImage" />
-            <p className="Carttitle">{name}</p>
-          </div>
-          <div className="CartcounterCon">
-            <button
-              type="button"
-              className="onIncrementbnt"
-              onClick={onDecrement}
-            >
-              -
-            </button>
-            <div className="quantity">{quantity}</div>
-            <button
-              type="button"
-              className="onIncrementbnt"
-              onClick={onIncrement}
-            >
-              +
-            </button>
-          </div>
+        <>
+          <li className="cartItemContainer">
+            <div className="cartImageCon">
+              <img src={imageUrl} alt={name} className="cartImage" />
+              <p className="Carttitle">{name}</p>
+            </div>
+            <div className="CartcounterCon">
+              <button
+                type="button"
+                className="onIncrementbnt"
+                onClick={onDecrement}
+              >
+                -
+              </button>
+              <div className="quantity">{quantity}</div>
+              <button
+                type="button"
+                className="onIncrementbnt"
+                onClick={onIncrement}
+              >
+                +
+              </button>
+            </div>
 
-          <p> {cost * quantity}</p>
-        </li>
+            <p className="cartItemPrice"> {cost * quantity}</p>
+          </li>
+          <li className="mobileCartItem">
+            <img src={imageUrl} alt={name} className="cartImage" />
+            <div className="mobileCartText">
+              <p className="Carttitle">{name}</p>
+              <div className="CartcounterCon">
+                <button
+                  type="button"
+                  className="onIncrementbnt"
+                  onClick={onDecrement}
+                >
+                  -
+                </button>
+                <div className="quantity">{quantity}</div>
+                <button
+                  type="button"
+                  className="onIncrementbnt"
+                  onClick={onIncrement}
+                >
+                  +
+                </button>
+              </div>
+
+              <p className="cartItemPrice">
+                {' '}
+                <BiRupee /> {cost * quantity}
+              </p>
+            </div>
+          </li>
+        </>
       )
     }}
   </CartContext.Consumer>

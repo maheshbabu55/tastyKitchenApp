@@ -53,3 +53,24 @@
   border-radius: 4px;
   margin-top: 10px;
 }
+@media (max-width: 560px) {
+  .fooditemTextCon {
+    width: 150px;
+    height: 150px;
+  }
+  .foodItemList {
+    width: 90vw;
+    height: 180px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .foodItemLogo {
+    width: 150px;
+    height: 150px;
+  }
+  .foodItemName {
+    font-size: 18px;
+  }
+}

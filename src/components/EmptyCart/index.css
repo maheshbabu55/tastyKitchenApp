@@ -6,3 +6,15 @@
   height: 60vh;
   width: 100vw;
 }
+@media (max-width: 560px) {
+  .mobileEmptyCartImage {
+    width: 250px;
+    height: 300px;
+  }
+  .emptyCartDes {
+    text-align: center;
+  }
+  .emptyCart {
+    width: 90vw;
+  }
+}

@@ -45,7 +45,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   padding-left: 0px;
-  height: 400px;
+  min-height: 400px;
 }
 .footerSection {
   width: 100%;
@@ -71,4 +71,31 @@
   margin-top: 10px;
   margin-bottom: 20px;
   display: flex;
+}
+.forMobile {
+  min-height: 100vh;
+}
+
+@media (min-width: 560px) {
+  .mobieSortCon {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .carouselImage {
+    height: 200px;
+    border-radius: 6px;
+  }
+  .sort-Sub-con {
+    display: none;
+  }
+
+  .ulHotelCardContainer {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    min-height: px;
+    flex-wrap: nowrap;
+  }
 }

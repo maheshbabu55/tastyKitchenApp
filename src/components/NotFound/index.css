@@ -6,3 +6,15 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media (max-width: 560px) {
+  .mobileNotfound {
+    width: 150px;
+    height: 200px;
+  }
+  .notFoundCon {
+    width: 100vw;
+    height: 70vh;
+    padding: 30px;
+  }
+}

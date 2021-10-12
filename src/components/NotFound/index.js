@@ -6,7 +6,11 @@ const NotFound = () => (
   <>
     <Header />
     <div className="notFoundCon">
-      <img src="https://i.postimg.cc/sgQfZ9KZ/erroring-1.png" alt="not found" />
+      <img
+        src="https://i.postimg.cc/sgQfZ9KZ/erroring-1.png"
+        alt="not found"
+        className="mobileNotfound"
+      />
       <h1>Page Not Found</h1>
       <p>
         we are sorry, the page you requested could not be found Please go back

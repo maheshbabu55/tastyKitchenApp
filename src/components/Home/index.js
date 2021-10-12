@@ -151,7 +151,7 @@ class Home extends Component {
           {offersList.map(eachItem => (
             <Carousel.Item>
               <img
-                className="d-block w-100"
+                className="d-block w-100 carouselImage"
                 src={eachItem.imageUrl}
                 alt="offer"
               />
@@ -210,7 +210,7 @@ class Home extends Component {
   render() {
     const {home, cart, offsetValue} = this.state
     return (
-      <>
+      <div className="forMobile">
         <Header
           getHomeColor={this.getHomeColor}
           home={home}
@@ -238,6 +238,17 @@ class Home extends Component {
                 </select>
               </div>
             </div>
+            <div className="mobieSortCon">
+              <BsFilterLeft className="iconEdit" />
+              <select className="selectEdit" onChange={this.sortByRating}>
+                {sortByOptions.map(eachItem => (
+                  <option value={eachItem.value}>
+                    {' '}
+                    Sort by {eachItem.displayText}
+                  </option>
+                ))}
+              </select>
+            </div>
             <hr />
           </div>
           {this.renderHotelsSwitch()}
@@ -259,7 +270,7 @@ class Home extends Component {
           </div>
         </div>
         <Footer />
-      </>
+      </div>
     )
   }
 }

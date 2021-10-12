@@ -24,3 +24,42 @@
   align-items: center;
   margin-right: 100px;
 }
+.cartItemPrice {
+  color: #ffa412;
+  font-weight: bold;
+}
+
+@media (min-width: 560px) {
+  .mobileCartItem {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .cartItemContainer {
+    display: none;
+  }
+  .mobileCartItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .Carttitle {
+    font-size: 20px;
+    margin: 0px;
+  }
+  .CartcounterCon {
+    height: 20px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .cartImage {
+    height: 100px;
+    width: 100px;
+  }
+  .mobileCartText {
+  }
+}

@@ -46,6 +46,11 @@ class LoginForm extends Component {
     const {errorMsg, displayError} = this.state
     return (
       <div className="mainCon">
+        <img
+          src="https://i.postimg.cc/HsQ6hF2g/Rectangle-1457.png"
+          alt="website login"
+          className="phoneLogo"
+        />
         <div className="textCon">
           <form className="loginForm" onSubmit={this.onLogin}>
             <img

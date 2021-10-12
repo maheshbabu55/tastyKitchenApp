@@ -34,3 +34,27 @@
 .cartRupee {
   margin-bottom: 10px;
 }
+@media (max-width: 560px) {
+  .headers {
+    display: none;
+  }
+  .Carttitle {
+    font-size: 15px;
+  }
+  .cartTotal {
+    display: flex;
+    justify-content: space-between;
+
+    width: 250px;
+    padding-bottom: 5px;
+  }
+  .cartPrice {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  .cartRupee {
+    margin-top: 12px;
+  }
+}

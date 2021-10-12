@@ -31,16 +31,16 @@ const Header = props => {
       </Link>
       <ul className="ulCon">
         <Link to="/" className="linkEdit">
-          <li className="unselected" style={{color: getColor('/')}}>
+          <li className="unselected" key="1" style={{color: getColor('/')}}>
             Home
           </li>
         </Link>
         <Link to="/cart" className="linkEdit">
-          <li className="unselected" style={{color: getColor('/cart')}}>
+          <li className="unselected" key="2" style={{color: getColor('/cart')}}>
             Cart
           </li>
         </Link>
-        <li>
+        <li key="3">
           <button type="button" className="logoutBtn" onClick={onLogout}>
             Logout
           </button>

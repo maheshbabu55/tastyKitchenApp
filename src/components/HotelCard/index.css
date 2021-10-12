@@ -51,3 +51,8 @@ li {
   height: 120px;
   text-decoration: none;
 }
+@media (max-width: 560px) {
+  .hotelCardLink {
+    width: 90vw;
+  }
+}

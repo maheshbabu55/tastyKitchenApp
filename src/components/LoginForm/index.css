@@ -77,3 +77,54 @@
   font-size: 12px;
   color: red;
 }
+@media (min-width: 560px) {
+  .phoneLogo {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .frontPageEdit {
+    display: none;
+  }
+  .loginForm {
+    width: 300px;
+    height: 400px;
+    margin: 0px;
+  }
+  .textCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 500px;
+    padding: 0px;
+  }
+  .logoEdit {
+    height: 50px;
+    width: 50px;
+  }
+  .loginInput {
+    padding-left: 7px;
+    width: 280px;
+    height: 32px;
+    border: 0px;
+    outline: none;
+    background-color: #e2e8f0;
+    margin-top: 12px;
+    border-radius: 4px;
+  }
+  .loginBnt {
+    width: 280px;
+  }
+  .phoneLogo {
+    width: 300px;
+    height: 200px;
+  }
+  .mainCon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    order: 1;
+  }
+}
